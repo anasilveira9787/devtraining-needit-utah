@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" audit="true" db_object_id="80790fb793510210303730dcebba1085" extends="task" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for2" reference="sys_user" type="reference"/>
+        <element default="2024" label="Year" max_length="40" name="year" type="integer"/>
+    </element>
+</database>
